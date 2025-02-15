@@ -1,5 +1,8 @@
 body{
-    height: 400vh;
+    height: auto;
+  
+    width: auto;
+  
     background-color:#e3e1e1;
   }
   /* تنسيق الهامبرغر */
@@ -9,11 +12,7 @@ body{
       justify-content: space-around;
       width: 30px;
       height: 25px;
-      cursor: pointer;
-      
-     
-      
-      
+      cursor: pointer;  
   }
   
   .line {
@@ -72,7 +71,7 @@ body{
   }
   
   #hr-2{
-    width: 500px;
+    width: 550px;
     height: 50px;
     border-width: 10px;
     transform: translate(0, -30px);
@@ -85,12 +84,21 @@ body{
   #h2-1{
     transform: translate(0, -95px);
   }
-  #img-1{
-    transform:translate(-40px, -250px) rotate(-45deg);
-  }
-  #img-2{
-    transform:translate(+700px, -300px) rotate(45deg);
-  }
-  #img-3{
-    transform: translate(-100px, -200px)
-  }
+#a-2:hover{
+  
+  Background-color: blue;
+  color:white;
+  
+}
+#a-1:hover{
+  Background-color: blue;
+  color:white;
+}
+#a-1{
+  position:absolute;
+  transform:translate(85vw, 0);
+}
+#a-2{
+  position:absolute;
+  transform:translate(5vw, 0);
+}
