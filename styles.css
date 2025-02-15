@@ -71,7 +71,7 @@ body{
   }
   
   #hr-2{
-    width: 550px;
+    width: 570px;
     height: 50px;
     border-width: 10px;
     transform: translate(0, -30px);
@@ -84,12 +84,7 @@ body{
   #h2-1{
     transform: translate(0, -95px);
   }
-#a-2:hover{
-  
-  Background-color: blue;
-  color:white;
-  
-}
+
 #a-1:hover{
   Background-color: blue;
   color:white;
@@ -97,8 +92,4 @@ body{
 #a-1{
   position:absolute;
   transform:translate(85vw, 0);
-}
-#a-2{
-  position:absolute;
-  transform:translate(5vw, 0);
 }
