@@ -7,55 +7,55 @@ body{
   }
   /* تنسيق الهامبرغر */
   .hamburger-menu {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      width: 30px;
-      height: 25px;
-      cursor: pointer;  
-  }
-  
-  .line {
-      height: 5px;
-      width: 100%;
-      background-color: #333;
-      border-radius: 5px;
-  }
-  
-  /* القائمة الجانبية */
-  .menu {
-      position: fixed;
-      z-index:10;
-      top: 0;
-      left: -250px;  /* اجعل القائمة مخفية في البداية */
-      width: 250px;
-      height: 100%;
-      background-color: #333;
-      color: white;
-      transition: left 0.3s ease;
-      padding-top: 50px;
-  }
-  
-  .menu ul {
-      list-style-type: none;
-      padding: 0;
-  }
-  
-  .menu ul li {
-      margin: 20px 0;
-  }
-  
-  .menu ul li a {
-      color: white;
-      text-decoration: none;
-      font-size: 18px;
-      padding-left: 20px;
-      display: block;
-  }
-  
-  /* عند فتح القائمة */
-  .menu.open {
-      left: 0;  /* يظهر القائمة عند النقر */ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;  
+}
+
+.line {
+    height: 5px;
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* القائمة الجانبية */
+.menu {
+    position: fixed;
+    z-index:10;
+    top: 0;
+    left: -250px;  /* اجعل القائمة مخفية في البداية */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: left 0.3s ease;
+    padding-top: 50px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 20px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 20px;
+    display: block;
+}
+
+/* عند فتح القائمة */
+.menu.open {
+    left: 0;  /* يظهر القائمة عند النقر */
   }
   #hr-1{
     height: 50px;
