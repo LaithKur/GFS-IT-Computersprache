@@ -71,8 +71,8 @@ body{
   }
   
   #hr-2{
-    width: 570px;
-    height: 50px;
+    width: 45vw;
+    height: 30vh;
     border-width: 10px;
     transform: translate(0, -30px);
     border-color: black;
