@@ -53,3 +53,20 @@
 h1{
   text-align:center;
 }
+#a-2:hover{
+
+    Background-color: blue;
+    color:white;
+    
+    }
+    #a-1:hover{
+    Background-color: blue;
+    color:white;
+    }
+    #a-1{
+    position:absolute;
+    transform:translate(85vw, 0);
+    }
+    #a-2{
+    position:absolute;
+    transform:translate(5vw, 0);}
