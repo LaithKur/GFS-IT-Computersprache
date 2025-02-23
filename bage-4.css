@@ -1,0 +1,83 @@
+body{
+    height:auto;
+    width:auto;
+    background-color:#e3e1e1;
+  }
+   /* تنسيق الهامبرغر */
+    .hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 30px;
+      height: 25px;
+      cursor: pointer;  
+  }
+  
+  .line {
+      height: 5px;
+      width: 100%;
+      background-color: #333;
+      border-radius: 5px;
+  }
+  
+  /* القائمة الجانبية */
+  .menu {
+      position: fixed;
+      z-index:10;
+      top: 0;
+      left: -250px;  /* اجعل القائمة مخفية في البداية */
+      width: 250px;
+      height: 100%;
+      background-color: #333;
+      color: white;
+      transition: left 0.3s ease;
+      padding-top: 50px;
+  }
+  
+  .menu ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  .menu ul li {
+      margin: 20px 0;
+  }
+  
+  .menu ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      padding-left: 20px;
+      display: block;
+  }
+  
+  /* عند فتح القائمة */
+  .menu.open {
+      left: 0;  /* يظهر القائمة عند النقر */
+    }
+  h1{
+    text-align:center;
+  }
+  strong{
+    color: blue;
+  }
+  #strong-2{
+    color:black;
+  }
+    #a-2:hover{
+
+    Background-color: blue;
+    color:white;
+    
+    }
+    #a-1:hover{
+    Background-color: blue;
+    color:white;
+    }
+    #a-1{
+    position:absolute;
+    transform:translate(85vw, 0);
+    }
+    #a-2{
+    position:absolute;
+    transform:translate(5vw, 0);}
