@@ -70,16 +70,14 @@ body{
     transform: translate(0, -65px);
   }
   
-  #hr-2{
-    width: 45vw;
-    height: 5vh;
-    border-width: 10px;
-    transform: translate(0, -30px);
-    border-color: black;
-    background-color: white;
-  }
+  
+  
   #h2-1{
     text-align: center;
+      border-width: 10px;
+      border-color: black;
+      background-color: white;
+      width:auto;
   }
   #h2-1{
     transform: translate(0, -95px);

@@ -1,3 +1,8 @@
+body{
+    height:auto;
+    width:auto;
+    background-color:#e3e1e1;
+  }
 /* تنسيق الهامبرغر */
 .hamburger-menu {
     display: flex;

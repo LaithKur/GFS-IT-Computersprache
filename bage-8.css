@@ -1,8 +1,9 @@
 body{
     height:auto;
     width:auto;
-    background-color:#e3e1e1;}
-/* تنسيق الهامبرغر */
+    background-color:#e3e1e1;
+  }
+  /* تنسيق الهامبرغر */
 .hamburger-menu {
     display: flex;
     flex-direction: column;
@@ -55,36 +56,14 @@ body{
     left: 0;  /* يظهر القائمة عند النقر */
   }
 h1{
-  text-align:center;
+    background-color: white;
+    color:black;
+    text-align: center;
 }
-#img-1{
- transform:translate(+700px,0);
-}
-#details-2{
-  transform:translate(0,-150px);
-}
-#img-2{
-  width: 500px;
-  height:auto;
-}
-#details-3{
-  transform:translate(0,-150px);
-}
-#a-2:hover{
-
-    Background-color: blue;
-    color:white;
-    
-    }
-    #a-1:hover{
-    Background-color: blue;
-    color:white;
-    }
-    #a-1{
-    position:absolute;
-    transform:translate(85vw, 0);
-    }
-    #a-2{
+#a-2{
     position:absolute;
     transform:translate(5vw, 0);}
-    
+    #a-2:hover{
+
+        Background-color: blue;
+        color:white;}
