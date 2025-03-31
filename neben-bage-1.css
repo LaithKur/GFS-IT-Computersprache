@@ -1,0 +1,21 @@
+body{
+    height:auto;
+    width:auto;
+    color:#e3e1e1;
+}
+#img-1{   
+    width:50%;
+    height:auto;
+}
+#img-2{ 
+    width:50%;
+    height:auto;
+}
+a:hover{
+    Background-color: blue;
+    color:white;
+    }
+    a{
+    position:absolute;
+    transform:translate(5vw,0);
+}
