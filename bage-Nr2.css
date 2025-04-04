@@ -61,13 +61,13 @@ body{
       color:white;
     }
     #img-1{
-      transform:translate(200%,0);
+      transform:translate(150%,0);
     }
     #p-1{
       transform:translate(0,-350px);
     }
     #img-2{
-      transform:translate(200%,-70px);
+      transform:translate(150%,-70px);
     }
     #a-2:hover{
 
